@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial scale=1">
+ <title> Home page </title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+<body>
+
+	<nav class="navbar-expand-md navbar-light bg-light sticky-top" style="height: 10px width=20px">
+		<div class="bg-image">
+		<div class="container"=fluid>
+			<a class="navbar-brand" href="#"><img src="logo.jpg" height="60px" width="60px"></a>
+			<p> <CENTER>
+				<H3><font face="impact" color="pink">HOSTEL MANAGEMENT</H3></font>
+				<H5>ITER</H5>
+			</CENTER>
+            </p>
+			<button class="navbar-toggler" type-"button" data-toggle="collapse" data-target="#navbar#Responsive">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+	<ul class="navbar-nav ml-auto">
+		<li class="nav-item active">
+			<a class="nav-link" href="HOME.html">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="reg.php">Register</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="leave.php">Register for leave</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="contact.php">Contact</a>
+		</li>
+	</ul>
+</div>
+</div>
+</nav>
+<center>
+<img src="in.jpg" width="60%" height="30%">
+</center>
+<br>
+<br>
+<center>
+	<div class="card-sticky-sidebar">
+  <div class="col-md-6 mx-auto">
+  </div>
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+        <div class="col-md-6 col-4 h-100 bg-dark text-white py-2 d-flex align-items-center justify-content-center fixed-center" id="left">
+  <div class="row">
+	 <div class="col-md-4 mx-auto">
+		   <form action="" method="post" name="login">
+		   	<div class="container">
+  <br>
+  <hr>
+  <br>
+ <h3><i><div class="text-black"><b><font face="monotypecorsivia" color="cyan">Schedule your visit!</b>
+	 </div> </h3></i><hr>
+	 <br><br>
+	  <img src="h.jpg" height="95%" width="95%">
+	  <br>
+	  <br>
+	  <br>
+<b><i>YOU ARE:</i></b></font>
+    <label class="radio-inline">
+    	<font face="times new roman">
+      <input type="radio" name="optradio">STUDENT
+    </label>
+ <label class="radio-inline">
+      <input type="radio" name="optradio">PARENT
+    </label>
+</div>
+</font>
+			  <div class="form-group">
+				 <input type="text" name="name"  class="form-control my-input" id="name" placeholder="Name">
+			  </div>
+			  <div class="form-group">
+				 <input type="email" name="email"  class="form-control my-input" id="email" placeholder="Email">
+			  </div>
+			  <div class="form-group">
+				 <input type="number" min="0" name="phone" id="phone"  class="form-control my-input" placeholder="Phone">
+			  </div>
+			  <div class="text-center ">
+				 <button type="submit" class=" btn btn-block send-button tx-tfm">Submit</button>
+			  </div>
+			  <div class="col-md-12 ">
+				 <div class="login-or">
+					<hr class="hr-or">
+					<span class="span-or">or</span>
+				 </div>
+			  </div>
+			  <div class="form-group">
+				 <a class="btn btn-block g-button" href="https://www.google.com/nonprofits/account/signup?locality=us">
+				 <i class="fa fa-google"></i> Sign up with Google
+				 </a>
+			  </div>
+			  <font color="text-black"><p class="small mt-3">By signing up, you are indicating that you have read and agree to the <a href="#" class="ps-hero__content__link">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p></font>
+			  </p>
+		   </form>
+		   </center>
+		   
+		</div>
+	 </div>
+  </div>
+</div>
+</div>
+</div>
+<hr>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<div class="col-xs-6">
+<img src="price.jpg">
+<img src="e.jpg">
+ <br>  
+ <br>
+ <br>
+ <hr>
+ <br>          
+</div>
+        </div>
+    </div>
+</div>
+
+<script>
+	$(document).ready(function(){
+	$(".frame1").click(function(){
+		$("#a-carousel").carousel(0);
+	});
+	$(".frame2").click(function(){
+		$("#a-carousel").carousel(1);
+	});
+	$(".frame3").click(function(){
+		$("#a-carousel").carousel(2);
+	});
+});
+</script>
+<br>
+<br>
+<center>
+	<h3> What's included? </h3>
+<div class="controls">
+		<button type="button" class="btn .btn frame1">
+		Room Features 
+	    </button>
+		<button type="button" class="btn .btn frame2">
+			Hostel Facilities 
+		</button>
+		<button type="button" class="btn .btn frame3">
+			Meal Plans
+		</button>
+	</div>
+<div id="a-carousel" class="carousel slide" data-interval="4000" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="img"><img class="d-block img-fluid" src="s1.png" alt="First slide"></div>
+    </div>
+    <div class="carousel-item">
+      <div class="img"><img class="d-block img-fluid" src="s2.png" alt="Second slide"></div>
+    </div>
+    <div class="carousel-item">
+      <div class="img"><img class="d-block img-fluid" src="s3.png" alt="Third slide"></div>
+    </div>
+  </div>
+ </div>
+</center>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<!--Section: Contact v.1-->
+</div>
+</div>
+ </body>
+ </html>
+
